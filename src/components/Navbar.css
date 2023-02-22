@@ -1,0 +1,14 @@
+.dark-theme {
+    background-color: #084d61;
+}
+.nav-link {
+    color: #effbfd;
+    font-size: 20px;
+}
+.navbar-brand {
+    color: #effbfd;
+    font-size: 28px;
+}
+.active {
+    color: #effbfd;
+}
