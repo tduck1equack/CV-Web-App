@@ -1,0 +1,25 @@
+.profile-container {
+    display: inline-block;
+}
+.image {
+    width: 450px;
+    height: 450px;
+}
+.traybar {
+    margin-top: 12px;
+    width: auto;
+    justify-content: space-around;
+    display: flex;
+    background-color: #084d61;
+}
+.link {
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: #effbfd;
+}
+a:hover {
+    color: #effbfd;
+    cursor: pointer;
+}

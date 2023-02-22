@@ -7,58 +7,18 @@ import NameCard from './components/NameCard.js';
 import Scrollbar from './components/Scrollbar.js';
 import Navbar from './components/Navbar.js';
 import Picture from './components/ProfilePicture';
-const Counter = () => {
-	const [count, setCount] = useState(0)
-
-	const onIncrease = () => {
-		setCount(count + 1)		
-	}
-
-	return (
-		<div>
-			<div>{count}</div>
-			<button onClick={onIncrease}>Increase</button>
-		</div>
-	)
-}
 
 const App = () => {
 	return (
-		<div>
-			<Navbar title="Homepage" one="General" two="Address" three="Contact" dropdown="Miscellaneous"/>
-			<NameCard className="name-card" id="bob" name="Bob" />
-			<NameCard className="name-card" id="jack" name="Jack" />
-      <Counter />
-      <Counter />
-      <Counter />
-	  <TodoList />
-	  <Picture source="./art/ph1.jpg" />
+		<div style={{backgroundColor: '#729a99'}}>
+			<Navbar title="Homepage" one="General" two="Address" three="Contact" dropdown="Miscellaneous" ddone="About Me" ddtwo="Sponsors"/>
+			<div style={{display: 'flex'}}>
+				<Picture source="https://st3.depositphotos.com/6672868/13701/v/1600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" one="Facebook" two="Instagram" three="Github"/>
+				<Scrollbar />
+			</div>			
 		</div>
 	)
 }
 
-const TodoList = () => {
-
-	const [todoItems, setTodoItems] = useState(["homework", "shopping"])	
-
-	const addItem = () => {
-		setTodoItems(prev => {
-			return [...prev, "new todo item"]
-		})
-	}
-
-	const todoItemLi = todoItems.map(item => {
-		return <li>{item}</li>
-	})
-
-	return (
-		<div>
-			<button onClick={addItem}>Add</button>
-			<ul>
-				{todoItemLi}
-			</ul>
-		</div>
-	)
-}
 
 export default App;

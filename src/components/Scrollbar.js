@@ -1,26 +1,26 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
+import "./Scrollbar.css"
 const Scrollbar = () => {
     return (
         <div>
-            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1">First</a>
+            <nav id="navbar-main" className="navbar navbar-light px-3">
+            <a className="navbar-brand" href="#">Navbar</a>
+            <ul className="nav nav-pills">
+                <li className="nav-item">
+            <a className="nav-link" href="#scrollspyHeading1">First</a>
                 </li>
-                 <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                 <li className="nav-item">
+            <a className="nav-link" href="#scrollspyHeading2">Second</a>
                 </li>
-                <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                <li><a className="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                <li><hr className="dropdown-divider" /></li>
+                <li><a className="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
             </ul>
                 </li>
             </ul>
