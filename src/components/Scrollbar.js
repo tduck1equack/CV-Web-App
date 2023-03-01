@@ -26,7 +26,8 @@ const Scrollbar = (props) => {
             </ul>
             </nav>
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-content-tab" tabindex="0">
-                <h4 id="scrollspyHeading1" className="heading">Introduction</h4>
+                <h4 id="scrollspyHeading1" className="heading-56">About Me</h4>
+                <h5 id="short">20 years   /   Hanoi   /   Freelancer</h5>
                 <p>
                     Nisi laboris ullamco nostrud consequat.<br/>
                     Fugiat velit cupidatat minim enim Lorem nostrud ex voluptate do nisi.<br/>
@@ -44,10 +45,7 @@ const Scrollbar = (props) => {
                         <div className="grid-items">
                             <h4>Development</h4>
                             <div>
-                                Test<br/>
-                                Test<br/>
-                                Test<br/>
-                                Test<br/>
+
                             </div>
                         </div>
                         <div className="grid-items">
@@ -62,11 +60,35 @@ const Scrollbar = (props) => {
                     </div>
                 </p>
                 <h4 id="scrollspyHeading3" className="heading">Pricing</h4>
-                <p>{props.content_first}</p>
+                <p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                </p>
                 <h4 id="scrollspyHeading4" className="heading">Statistics</h4>
-                <p>{props.content_first}</p>
+                <p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                </p>
                 <h4 id="scrollspyHeading5" className="heading">Sponsors</h4>
-                <p>{props.content_first}</p>
+                <p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                </p>
             </div>
         </div>
     )

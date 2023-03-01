@@ -4,9 +4,21 @@
 a:hover {
     color: #94bec7;
 }
+#short {
+    color: #a0e6ec;
+    font-size: 24px;
+    font-style: italic;
+}
 .heading {
     font: bold;
     font-size: 32px;
+}
+.heading-56 {
+    font: bold;
+    font-size: 56px;
+}
+.font-48 {
+    font-size: 60px;
 }
 .scrollspy-content-tab {
     overflow: auto;
