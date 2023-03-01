@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import "./Scrollbar.css"
-const Scrollbar = (props) => {
+import "./ScrollbarAddress.css"
+const ScrollbarAddress = (props) => {
     return (
         <div style={{height: 372, width: 633.8}}>
             <nav id="navbar-main" className="navbar navbar-light px-3">
@@ -25,24 +25,20 @@ const Scrollbar = (props) => {
                 </li>
             </ul>
             </nav>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-content-tab" tabindex="0">
-                <h4 id="scrollspyHeading1" className="heading">Introduction</h4>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-content-tab scrollbar-morpheus-den" tabindex="0">
+                <h4 id="scrollspyHeading1" className="heading">Email</h4>
                 <p>
                     Nisi laboris ullamco nostrud consequat.<br/>
                     Fugiat velit cupidatat minim enim Lorem nostrud ex voluptate do nisi.<br/>
                     Ex dolore aute nostrud cillum aliquip do aliqua mollit labore est id laborum exercitation.<br/>
-                    Aliquip commodo cillum et ex labore proident.<br/>
-                    Veniam aliqua et id et irure reprehenderit magna.<br/>
-                    Laboris ullamco ad incididunt ad aliquip qui velit deserunt est duis magna et est officia.<br/>
-                    Eu excepteur minim do Lorem.<br/>
-                    Irure in in aliquip ut.<br/>
+                    
                 </p>
                 <hr />
-                <h4 id="scrollspyHeading2" className="heading">Services</h4>
+                <h4 id="scrollspyHeading2" className="heading">Location</h4>
                 <p>
                     <div className="service-container">
                         <div className="grid-items">
-                            <h4>Development</h4>
+                            <h4>University</h4>
                             <div>
                                 Test<br/>
                                 Test<br/>
@@ -51,13 +47,13 @@ const Scrollbar = (props) => {
                             </div>
                         </div>
                         <div className="grid-items">
-                            <h4>Optimization</h4>
+                            <h4>Workplace</h4>
                         </div>
                         <div className="grid-items">
-                            <h4>Data Security</h4>
+                            <h4>Personal</h4>
                         </div>
                         <div className="grid-items">
-                            <h4>Web Design</h4>
+                            <h4>??</h4>
                         </div>
                     </div>
                 </p>
@@ -72,4 +68,4 @@ const Scrollbar = (props) => {
     )
 }
 
-export default Scrollbar;
+export default ScrollbarAddress;

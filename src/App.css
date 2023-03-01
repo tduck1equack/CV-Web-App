@@ -1,3 +1,7 @@
+html {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,255,253,1) 13%, rgba(208,236,235,1) 31%, rgba(160,230,236,1) 69%, rgba(148,242,244,1) 100%);;
+}
+
 .App {
   text-align: center;
 }
@@ -42,4 +46,34 @@
   margin: 5% 60px;
   padding: 40px;
   justify-content: space-around;
+}
+
+button {
+  border: none;
+}
+.square-50px {
+  width: 50px;
+  height: 50px;
+}
+.primary-button {
+  background-color: #a0e6ec;
+}
+
+.menu-button {
+  background-color: #729a99;
+}
+
+
+
+.menu-bar {
+  height: 633.8px;
+  width: 50;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middle-menu {
+  display: flex;
+  flex-direction: column;
 }
