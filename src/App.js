@@ -11,10 +11,9 @@ import Picture from './components/ProfilePicture';
 const App = () => {
 	return (
 		<div style={{backgroundColor: '#729a99'}}>
-			<Navbar title="Homepage" one="General" two="Address" three="Contact" dropdown="Miscellaneous" ddone="About Me" ddtwo="Sponsors"/>
-			<div style={{display: 'flex'}}>
+			<div className='inner-container'>
 				<Picture source="https://st3.depositphotos.com/6672868/13701/v/1600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" one="Facebook" two="Instagram" three="Github"/>
-				<Scrollbar />
+				<Scrollbar main='General Information' first="Experience" second="Pricing" dropdown="Services" dropdown_first="Temp" dropdown_second="Temp" dropdown_miscellaneous="Temp"/>
 			</div>			
 		</div>
 	)

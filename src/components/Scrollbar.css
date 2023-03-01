@@ -4,3 +4,11 @@
 a:hover {
     color: #94bec7;
 }
+.heading {
+    font: bold;
+    font-size: 32px;
+}
+.scrollspy-content-tab {
+    overflow: auto;
+    height: 430px;
+}
